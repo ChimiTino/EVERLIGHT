@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "16.13.1"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "next": "12.2.5",
