@@ -34,20 +34,20 @@ setToggle(true);
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
-      <img src='/SGGR.PNG' alt=''/>
+      <Link href='/'><img src='/SGGR.PNG' alt=''/></Link>
     </div>
     
     <div className='nav-list'>
       <ul>
-        <li><Link href='/'>Home</Link></li> 
+        <li className='invis'><Link href='/'>Home</Link></li> 
         <li><Link href='#ser-area'>Servive Areas</Link></li>
         <li><Link href='#WhyUs'>Why Us?</Link></li>
        
-        <li><Link className='callUs-pc' href='tel:+27 66 353 2520'>
+        <li className='callUs-pc'><Link   href='tel:+27 66 353 2520'>
            Call Us
         </Link></li>
     
-    <li><Link className='EmailUs-pc' href='mailto:admin@everlight.co.za'>
+    <li className='EmailUs-pc'><Link  href='mailto:admin@everlight.co.za'>
       Email Us
       </Link>
       </li>
