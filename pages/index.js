@@ -5,6 +5,7 @@ import Services from '../Components/Services/Services'
 import Slider from '../Components/Slider/Slider'
 import PopUpHand from '../Components/PopUp/PopUpHand'
 import Link from 'next/link'
+import * as MdIcons from 'react-icons/md'
 
 
 
@@ -31,6 +32,7 @@ setToggle(true);
 
 <PopUpHand trigger={toggle} setToggle={setToggle}/>
 
+   
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
@@ -64,9 +66,12 @@ setToggle(true);
 
 
 
-
+<div className='phone-shorts'>
+    <Link href='tel:+27 66 353 2520'><MdIcons.MdPhone/></Link>
+  </div>
 </main>
   
+   
    
 
   </div>
