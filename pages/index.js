@@ -66,9 +66,7 @@ setToggle(true);
 
 
 
-<div className='phone-shorts'>
-    <Link href='tel:+27 66 353 2520'><MdIcons.MdPhone/></Link>
-  </div>
+
 </main>
   
    
