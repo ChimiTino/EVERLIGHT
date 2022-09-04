@@ -4,6 +4,7 @@ import React  ,{useState ,useRef} from'react'
 import Services from '../Components/Services/Services'
 import Slider from '../Components/Slider/Slider'
 import PopUpHand from '../Components/PopUp/PopUpHand'
+import Link from 'next/link'
 
 
 
@@ -38,17 +39,17 @@ setToggle(true);
     
     <div className='nav-list'>
       <ul>
-        <li><a href='/'>Home</a></li> 
-        <li><a href='#ser-area'>Servive Areas</a></li>
-        <li><a href='#WhyUs'>Why Us?</a></li>
+        <li><Link href='/'>Home</Link></li> 
+        <li><Link href='#ser-area'>Servive Areas</Link></li>
+        <li><Link href='#WhyUs'>Why Us?</Link></li>
        
-        <li><a className='callUs-pc' href='tel:+27 66 353 2520'>
+        <li><Link className='callUs-pc' href='tel:+27 66 353 2520'>
            Call Us
-        </a></li>
+        </Link></li>
     
-    <li><a className='EmailUs-pc' href='mailto:admin@everlight.co.za'>
+    <li><Link className='EmailUs-pc' href='mailto:admin@everlight.co.za'>
       Email Us
-      </a>
+      </Link>
       </li>
       </ul>
     </div>

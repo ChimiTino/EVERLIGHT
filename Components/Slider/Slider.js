@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import { SlideImgs } from './SliderImgs'
+import Link from 'next/link'
 import * as BsIcons from 'react-icons/bs'
 
-function Slider({setToggle,submit}) {
+function Slider({setToggle}) {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -18,7 +19,7 @@ function Slider({setToggle,submit}) {
         <div className='header-box'>
             <header className='header-name'>Everlight Plumbing & Construction</header>
             <p className='header-text'>Here at Dinnys Everlight plumbing and construction Projects we prioritise quality and customer satisfaction with every service we deliver. For affordable and excellent service book a quote today.</p>
-       <button  className='header-butn' onClick={setToggle}><a href='#nav'>BOOK NOW </a><BsIcons.BsFillArrowRightCircleFill className='arrow'/></button>
+       <button  className='header-butn' onClick={setToggle}><Link href='#nav'>BOOK NOW </Link><BsIcons.BsFillArrowRightCircleFill className='arrow'/></button>
         </div>
         <div className='red-line'></div>
         <div className='blue-triangle'></div>
