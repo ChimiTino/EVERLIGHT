@@ -594,9 +594,13 @@ color: rgb(255, 255, 255);
     position: fixed;
     bottom: 2px;
     left: 2px;
-    padding: 7vw;
-    font-size: 4vw;
-    border-radius: 50%;
+    text-align: center;
+    height: 12vw;
+    color: rgb(0, 19, 49);
+    padding-top: 1.5vw;
+    font-size: 7vw;
+    border-radius:60px;
+    width: 12vw;
     background-color: rgb(134, 168, 223);
     
   }
