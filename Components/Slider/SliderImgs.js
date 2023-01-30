@@ -9,8 +9,5 @@
     },
     {
         img:'\work-of-an-electrician.jpg'
-    },
-    {
-        img:'\https://plumbitonline.co.za/news/images/assets/Geyser-installation.jpeg'
-    },
+    }
 ]
