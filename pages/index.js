@@ -7,6 +7,7 @@ import PopUpHand from '../Components/PopUp/PopUpHand'
 import Link from 'next/link'
 import * as MdIcons from 'react-icons/md'
 import Footer from '../Components/Footer'
+import {logo} from '../public/SGGR.png'
 
 
 
@@ -28,7 +29,7 @@ setToggle(true);
       <Head>
         <title>Everlight Plumbing & Construction</title>
         <meta name="description" content="Everlight Plumbing & Construction" />
-        <link rel="icon" href="/SGGR.PNG" />
+        <link rel="icon" href="/SGGR.png" />
       </Head>
 
 <PopUpHand trigger={toggle} setToggle={setToggle}/>
@@ -37,7 +38,7 @@ setToggle(true);
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
-      <Link href='/'><img src='/SGGR.png' alt=''/></Link>
+      <Link href='/'><img src={logo} alt=''/></Link>
     </div>
     
     <div className='nav-list'>

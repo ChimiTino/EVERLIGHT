@@ -2,13 +2,15 @@ import Link from 'next/link'
 import React from 'react'
 import { AiFillFacebook } from 'react-icons/ai'
 import {FaPinterestSquare} from 'react-icons/fa'
+import {logo} from '../public/SGGR.png'
+
 
 function Footer() {
   return (<div className='cont-w'>
     <div className='footer-container'>
     
     <div className='logo-foot'>
-            <img src='/SGGR.png' alt='Everlight Plumbing and Construction'/>
+            <img src={logo} alt='Everlight Plumbing and Construction'/>
             <header><h1>Everlight Plumbing and Construction</h1></header>
         </div>
     <div className='everlight-page'>
