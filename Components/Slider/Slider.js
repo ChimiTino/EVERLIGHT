@@ -11,24 +11,28 @@ function Slider({setToggle}) {
     setIndex(selectedIndex);
   };
   return (
-    <>
+    <> 
+    
+    <img className='black-des' src='\ergrg.PNG' alt=''/>
     <div className='slider-container'>
 
       <div className='black-conatainer'>
-        <img className='black-des' src='\ergrg.PNG' alt=''/>
+       
         <div className='header-box'>
             <header className='header-name'>Everlight Plumbing & Construction</header>
-            <p className='header-text'>Here at Dinnys Everlight plumbing and construction Projects we prioritise quality and customer satisfaction with every service we deliver. For affordable and excellent service book a quote today.</p>
+            <p className='header-text'>Here at Everlight Plumbing and Construction we prioritise quality and customer satisfaction with every service we deliver. For affordable and excellent service book a quote today.</p>
        <button  className='header-butn' onClick={setToggle}><Link href='#nav'>BOOK NOW </Link><BsIcons.BsFillArrowRightCircleFill className='arrow'/></button>
         </div>
         <div className='red-line'></div>
         <div className='blue-triangle'></div>
       </div>
+ <div className='semi-circle'></div>
+      
      <Carousel  activeIndex={index} onSelect={handleSelect}>
       
-        {SlideImgs.map((item)=> { 
+        {SlideImgs.map((item,index)=> { 
 return(
-     <Carousel.Item>
+     <Carousel.Item key = {index}>
           <div>
             <img className='slider-imgs' src={item.img}/>
           </div>
@@ -36,8 +40,9 @@ return(
         })}
       
      </Carousel>
-    
+   
     </div>
+   
   </>)
 }
 

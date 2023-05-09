@@ -7,6 +7,7 @@ import { ServicesList } from './ServicesList'
 function Services({setToggle}) {
   return (
     <>
+  
     <div className='services'>
     <header className='flex'>
     <h1 className='ser-head'>Our</h1><h3 className='ser-head-red'>Services</h3>

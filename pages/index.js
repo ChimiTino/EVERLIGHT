@@ -6,6 +6,7 @@ import Slider from '../Components/Slider/Slider'
 import PopUpHand from '../Components/PopUp/PopUpHand'
 import Link from 'next/link'
 import * as MdIcons from 'react-icons/md'
+import Footer from '../Components/Footer'
 
 
 
@@ -25,8 +26,8 @@ setToggle(true);
     
     <div>
       <Head>
-        <title>Everlight Constructions</title>
-        <meta name="description" content="Everlight Plumbing and Constructions" />
+        <title>Everlight Plumbing & Construction</title>
+        <meta name="description" content="Everlight Plumbing & Construction" />
         <link rel="icon" href="/SGGR.PNG" />
       </Head>
 
@@ -36,14 +37,15 @@ setToggle(true);
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
-      <Link href='/'><img src='/SGGR.PNG' alt=''/></Link>
+      <Link href='/'><img src='/SGGR.png' alt=''/></Link>
     </div>
     
     <div className='nav-list'>
       <ul>
-        <li className='invis'><Link href='/'>Home</Link></li> 
-        <li><Link href='#ser-area'>Servive Areas</Link></li>
-        <li><Link href='#WhyUs'>Why Us?</Link></li>
+      
+        <li className='invis visi'><Link href='/'>Home</Link></li> 
+        <li className='visi'><Link href='#ser-area'>Service Areas</Link></li>
+        <li className='visi'><Link href='#WhyUs'>Why Us?</Link></li>
        
         <li className='callUs-pc'><Link   href='tel:+27 66 353 2520'>
            Call Us
@@ -63,6 +65,7 @@ setToggle(true);
 <Slider setToggle={Switch} />
 <Services setToggle={Switch}/>
 <Garantee/>
+<Footer/>
 
 
 
