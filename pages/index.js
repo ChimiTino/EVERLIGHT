@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import Head from 'next/head'
 import Garantee from '../Components/ServiceArea/Garantee'
 import React  ,{useState ,useRef} from'react'
@@ -7,8 +8,7 @@ import PopUpHand from '../Components/PopUp/PopUpHand'
 import Link from 'next/link'
 import * as MdIcons from 'react-icons/md'
 import Footer from '../Components/Footer'
-import {logo} from '../public/SGGR.png'
-
+import Image from 'next/image'
 
 
 
@@ -38,7 +38,8 @@ setToggle(true);
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
-      <Link href='/'><img src={logo} alt=''/></Link>
+      <Link href='/'><Image width={50}
+      height={50} style={{width:'20px'}} src='/SGGR.png' alt=''/></Link>
     </div>
     
     <div className='nav-list'>
