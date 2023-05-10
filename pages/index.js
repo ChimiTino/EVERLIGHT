@@ -29,7 +29,7 @@ setToggle(true);
       <Head>
         <title>Everlight Plumbing & Construction</title>
         <meta name="description" content="Everlight Plumbing & Construction" />
-        <link rel="icon" href="/SGGR.png" />
+        <link rel="icon" href="/SGGR.PNG" />
       </Head>
 
 <PopUpHand trigger={toggle} setToggle={setToggle}/>
@@ -38,8 +38,8 @@ setToggle(true);
 <nav id='nav'>
   <div className='nav-conatainer'>
     <div className='logo-pic'>
-      <Link href='/'><Image width={50}
-      height={50} style={{width:'20px'}} src='/SGGR.png' alt=''/></Link>
+      <Link href='/'>
+      <img src='/SGGR.PNG' alt='Everlight Plumbing & Construction'/></Link>
     </div>
     
     <div className='nav-list'>
