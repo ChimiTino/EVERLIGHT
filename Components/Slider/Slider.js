@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import { SlideImgs } from './SliderImgs'
@@ -20,7 +21,7 @@ function Slider({setToggle}) {
        
         <div className='header-box'>
             <header className='header-name'>Everlight Plumbing & Construction</header>
-            <p className='header-text'>Here at Everlight Plumbing and Construction we prioritise quality and customer satisfaction with every service we deliver. For affordable and excellent service book a quote today.</p>
+            <p className='header-text'>Here at Everlight Plumbing and Construction we we understand the importance of ON-TIME service delivery for youy company and clients. We understand the service level agreements that you have in place and that your company's reputation above all should remain untarnished, that is why Everlight Plumbing and Construction is the service provider for you. We are on-time, friendly, knowledgeable and ready to exceed your expectations.</p>
             
             <button  className='header-butn' onClick={setToggle}><Link href='#nav'>BOOK NOW </Link><BsIcons.BsFillArrowRightCircleFill className='arrow'/></button>
         </div>
