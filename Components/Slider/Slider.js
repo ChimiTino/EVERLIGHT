@@ -27,6 +27,7 @@ function Slider({setToggle}) {
         <div className='red-line'></div>
         <div className='blue-triangle'></div>
       </div>
+       <div className='backgoundImg'></div>
  <div className='semi-circle'></div>
       
      <Carousel  activeIndex={index} onSelect={handleSelect}>
