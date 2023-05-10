@@ -287,10 +287,12 @@ color:white
   position:relative;font-family: 'Montserrat', sans-serif;
   z-index: 2;
 }
+
 .black-des{
   position: absolute;
   transform: translateY(-5.3vw);
-  height: 31.3vw;
+  height: 33.4vw;
+  width: 13vw;
   opacity: 0.6;
   z-index: 3;
 }
@@ -555,7 +557,7 @@ margin-left: 60%;
 .slider-container{
  position: relative;
  width: 100%;
- height:26vw;
+ height:28vw;
  overflow: hidden;
  margin-top: 0vw;
 }
@@ -569,7 +571,7 @@ margin-left: 60%;
 }
 .slider-imgs{
   height:100%;
-  width:40%;
+  width:45%;
   position: absolute;
 }
 .call-pc img{
@@ -752,6 +754,7 @@ color: rgb(255, 255, 255);
 .sidebar ul li{
   margin-top: 10vw;
   text-align: center;
+  font-size: 3vw;
   margin-left: -10vw;
 }
 .sidebar ul{
@@ -1108,20 +1111,20 @@ margin-top:16vw;position: absolute;
   font-size: 2vw;
 }
 .callUs-pcsidebar{
-  border: 2px solid #cc0000bb;
+  border: 1px solid #cc0000bb;
   border-radius: 50px;
   background: rgb(255, 255, 255);
   color: rgb(100, 100, 100);
   font-weight: 500;
   width: 20;
-  padding-bottom: 0.2vw;
+  padding: 3px;
   transform: translateX(13vw);
   width: 60%;
   transition: 0.3s;
 }
 .EmailUs-pcsidebar{
-  border: 2px solid #cc0000bb;
-  padding-bottom: 0.2vw;
+  border: 1px solid #cc0000bb;
+  padding: 3px;
   background-color: white;
   font-weight: 500;
   color: rgb(100, 100, 100);
