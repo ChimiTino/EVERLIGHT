@@ -628,6 +628,12 @@ margin-left: 60%;
   
  
 }
+.sidebarcont{
+  display: none;
+}
+.menu{
+  display: none;
+}
 #nav{
   background-color:  #001629ff;;
 }
@@ -718,6 +724,7 @@ color: rgb(255, 255, 255);
   text-align: right;
   position: absolute;
   color: white;
+  display: block;
   font-size: 8vw;
   padding: 4vw;
   width: 100%;
@@ -729,11 +736,13 @@ color: rgb(255, 255, 255);
   cursor: pointer;
   text-align: right;
 }
+
 .sidebarcont{
   overflow: hidden;
   z-index: 20;
+  display: block;
   right: 0;
-
+  
   height: 120%; position: absolute;
   width: 50vw;
   border-bottom-left-radius: 30vw;
@@ -750,6 +759,7 @@ color: rgb(255, 255, 255);
 .sidebar{
   background-color: white;
  transition: 0.5s;
+ display: block;
   height: 120%;
   border-bottom-left-radius: 30vw;
 }
