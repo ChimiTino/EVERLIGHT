@@ -704,6 +704,55 @@ color: rgb(255, 255, 255);
   transition: 0.2s;
 
 }
+.hide{
+  background-color: white;
+ transform: translateX(50vw);
+ transition: 0.5s;
+  height: 120%;
+  border-bottom-left-radius: 30vw;
+}
+.index{
+  transform: translateX(-200vw);
+}
+.menu{
+  text-align: right;
+  position: absolute;
+  color: white;
+  font-size: 8vw;
+  padding: 4vw;
+  width: 100%;
+}
+.sidebar p{
+  font-size: 8vw;
+  margin: 0vw;
+  padding: 4vw;
+  cursor: pointer;
+  text-align: right;
+}
+.sidebarcont{
+  overflow: hidden;
+  z-index: 20;
+  right: 0;
+
+  height: 120%; position: absolute;
+  width: 50vw;
+  border-bottom-left-radius: 30vw;
+}
+.sidebar ul li{
+  margin-top: 10vw;
+  text-align: center;
+  margin-left: -10vw;
+}
+.sidebar ul{
+  list-style: none;
+  margin-top: 20vw;
+}
+.sidebar{
+  background-color: white;
+ transition: 0.5s;
+  height: 120%;
+  border-bottom-left-radius: 30vw;
+}
 .ser-head-red{
   width: 0%;
   margin-top: 20px;
@@ -825,11 +874,15 @@ display:none;
    display: none ;
     
   }
-  .logo-pic{
+  .logo-pic img{
      margin: 3vw;
+     width: 12vw;
+    height: 12vw;
+    
     }
     .nav-list ul{
-      display: flex;
+      display:none;
+
       list-style-type: none;
       position: relative;
       margin-left: -10%;
@@ -1025,5 +1078,37 @@ margin-top:16vw;position: absolute;
   color: red;
   margin-top: 2vw;
   font-size: 2vw;
+}
+.callUs-pcsidebar{
+  border: 2px solid #cc0000bb;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+  width: 20;
+  padding-bottom: 0.2vw;
+  transform: translateX(13vw);
+  width: 60%;
+  transition: 0.3s;
+}
+.EmailUs-pcsidebar{
+  border: 2px solid #cc0000bb;
+  padding-bottom: 0.2vw;
+  background-color: white;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  transition: 0.3s;border-radius: 50px;
+  transform: translateX(13vw);
+  width: 60%;
+}
+.EmailUs-pcsidebar:hover{
+  background-color: #cc0000bb;
+color: rgb(255, 255, 255);
+ transition: 0.3s;
+}
+.callUs-pcsidebar:hover{
+  background-color: #cc0000bb;
+color: rgb(255, 255, 255);
+ transition: 0.3s;
 }
 }

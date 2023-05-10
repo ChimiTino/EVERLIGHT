@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer-container'>
     
     <div className='logo-foot'>
-            <img src='/SGGR.png' alt='Everlight Plumbing and Construction'/>
+            <img src='/SGGR.PNG' alt='Everlight Plumbing and Construction'/>
             <header><h1>Everlight Plumbing and Construction</h1></header>
     </div>
     <div className='everlight-page'>
